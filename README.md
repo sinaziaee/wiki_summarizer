@@ -103,6 +103,15 @@ Navigate to the URL displayed in your terminal (e.g., `http://localhost:8501`).
   }
   ```
 
+## Model and Trade-offs
+
+- **Model Used:** GPT-4o-mini — chosen for its balance of performance, cost-efficiency, and compatibility with token-based truncation.
+- **Why This Model:** Offers high-quality, coherent summaries with a manageable context window and predictable cost, fitting the 300-word limit requirement.
+- **Trade-offs:** 
+  - **Context Window Limitations:** Articles are truncated to 6000 tokens, which may omit details in very long pages.
+  - **Summary Length Cap:** Strict 300-word limit may reduce nuance.
+  - **Latency vs. Accuracy:** Lower model size compared to larger GPT variants reduces latency but may slightly affect summary depth.
+
 ## Project Structure
 
 ```
@@ -115,3 +124,4 @@ Navigate to the URL displayed in your terminal (e.g., `http://localhost:8501`).
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project overview and instructions
 ```
+
