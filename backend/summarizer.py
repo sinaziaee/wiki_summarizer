@@ -35,7 +35,7 @@ from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema import HumanMessage
-from openai.error import OpenAIError
+from openai import OpenAIError
 
 MAX_WORDS = 300                    # project spec
 MODEL     = "gpt-4o-mini"

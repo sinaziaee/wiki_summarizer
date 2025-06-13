@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from scraper import scrape
-from summarizer import load_chat_model_and_template, summarize
+from .scraper import scrape
+from .summarizer import load_chat_model_and_template, summarize
 
 app = FastAPI()
 
