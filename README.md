@@ -13,8 +13,6 @@ This repository contains a backend API powered by FastAPI and a Streamlit fronte
   - [Running the Frontend](#running-the-frontend)
 - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -117,12 +115,3 @@ Navigate to the URL displayed in your terminal (e.g., `http://localhost:8501`).
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project overview and instructions
 ```
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify.
-
